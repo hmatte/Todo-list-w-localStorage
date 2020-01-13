@@ -1,0 +1,54 @@
+#task-text,
+button {
+  font-size: 1.5em;
+}
+
+body{
+  font-family: 'Roboto', sans-serif;
+  background-color: black;
+}
+
+h1, h3{
+  color: yellow;
+}
+
+.task-list {
+  padding: 0;
+  width: 50%;
+  min-width: 450px;
+}
+
+.buttons
+{
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+.buttons:hover{
+  color: red;
+}
+
+.task-list li {
+  border: 2px solid grey;
+  list-style: none;
+  background-color: yellow;
+  margin: 5px;
+  padding: 5px;
+  font-size: 1.3em;
+}
+.task-list li:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+.done,
+.remove {
+  float: right;
+}
+.task-list li.made {
+  text-decoration:line-through;
+  background-color: gray;
+}
+.hide .made{
+  display: none;
+}
